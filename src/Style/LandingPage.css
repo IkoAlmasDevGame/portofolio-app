@@ -1,0 +1,185 @@
+*, :after, :before {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59,130,246,.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+
+*, :after, :before {
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+.App {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    background-size: cover;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+
+.homes, .contacts, .abouts, .skills {
+    letter-spacing: 2px;
+    font-size: large;
+    font-weight: normal;
+}
+
+.App:hover {
+    background-color: transparent;
+}
+
+.basic1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.basic2 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.basic3 {
+    font-size: 28px;
+    text-align: start;
+    margin-top: 50px;
+}
+
+#page-scroll {
+    font-size: large;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color:black;
+}
+
+#page-scroll:hover {
+    color: inherit;
+}
+
+#text {
+    font-weight: normal;
+    font-size: medium;
+    text-align: center;
+}
+
+#btn {
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px;
+    border: 1px solid transparent;
+}
+
+.text-sm {
+    font-size: 15px;
+}
+
+.text-large {
+    font-size: 24px;
+}
+
+.text-larger {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.text-large-x {
+    font-size: 18px;
+}
+
+#btn-center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin : auto;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.bg-\[\#0b0b13\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(11 11 19/var(--tw-bg-opacity));
+}
+
+.border-none {
+    border-style: none;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.mb-3 {
+    margin-bottom: 0.75rem;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+}
